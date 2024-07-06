@@ -63,7 +63,7 @@
               <el-input maxlength="50" show-word-limit v-model="form.mainDirectoryCategoryC" />
             </el-form-item>
             <el-form-item label="购物网站排序" required="true">
-              <el-input-number v-model="form.shoppingSiteSorting" class="mx-4" :min="1" :max="10"
+              <el-input-number v-model="form.shoppingSiteSorting" class="mx-4" :min="1" 
                 controls-position="right" @change="handleChange" />
             </el-form-item>
             <el-form-item label="状态" required="true">
@@ -92,10 +92,10 @@ import axios from 'axios';
 import myImage from '@/assets/logo.png';
 import { ArrowRight, ArrowDown, Search } from '@element-plus/icons-vue'
 
-//header
+//头部
 const imgUrl = ref(myImage);
 
-//filter
+//过滤器数据
 const directorySearchKeyword = ref('')
 const statusSearchKeyword = ref([])
 const filteredData = ref([])
@@ -115,7 +115,7 @@ const options = [
   },
 ]
 
-// 表格
+//表格数据和行为
 const tableData = ref([
 ])
 
@@ -137,7 +137,8 @@ const fetchData = async () => {
 const deleteData = async (id) => {
   try {
     await axios.delete(`http://localhost:3000/posts/${id}`);
-    fetchData();
+    await fetchData();
+    filterData();
   } catch (err) {
     console.error("Error fetching data:", err);
   }
@@ -154,6 +155,7 @@ const editData = (row) => {
   form.mainDirectoryCategoryC = row.mainDirectoryCategoryC;
   form.shoppingSiteSorting = row.shoppingSiteSorting;
   form.status = row.status;
+  
   dialogVisible.value = true;
 };
 
@@ -184,7 +186,7 @@ const resetForm = () => {
   form.status = '';
 };
 
-// 分页
+// 分页器数据
 const total = ref(filteredData.value.length)
 const pageSizes = [10, 50, 100]
 const currentPage = ref(1)
@@ -198,7 +200,7 @@ const displayedData = computed(() => {
   return filteredData.value.slice(start, end);
 });
 
-// 模态框
+// 模态框数据和行为
 const dialogVisible = ref(false)
 const form = reactive({
   id: null,
@@ -226,6 +228,7 @@ const submitForm = async () => {
   filterData();
 }
 
+//其他
 onMounted(async () => {
   await fetchData();
   filterData();

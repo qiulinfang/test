@@ -1,104 +1,6 @@
 {
   "posts": [
     {
-      "id": "d0000",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 0,
-      "status": "1"
-    },
-    {
-      "id": "d0001",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 1,
-      "status": "1"
-    },
-    {
-      "id": "d0002",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 2,
-      "status": "1"
-    },
-    {
-      "id": "d0003",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 3,
-      "status": "1"
-    },
-    {
-      "id": "d0004",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 4,
-      "status": "1"
-    },
-    {
-      "id": "d0005",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 5,
-      "status": "2"
-    },
-    {
-      "id": "d0006",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 6,
-      "status": "1"
-    },
-    {
-      "id": "d0007",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 7,
-      "status": "1"
-    },
-    {
-      "id": "d0008",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 8,
-      "status": "1"
-    },
-    {
-      "id": "d0009",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 9,
-      "status": "1"
-    },
-    {
-      "id": "d0010",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 10,
-      "status": "1"
-    },
-    {
-      "id": "d0011",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 11,
-      "status": "1"
-    },
-    {
-      "id": "d0012",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 12,
-      "status": "1"
-    },
-    {
-      "id": "d0013",
-      "mainDirectoryCategoryE": "category1",
-      "mainDirectoryCategoryC": "类型1",
-      "shoppingSiteSorting": 13,
-      "status": "1"
-    },
-    {
       "id": "d0014",
       "mainDirectoryCategoryE": "category1",
       "mainDirectoryCategoryC": "类型1",
@@ -279,6 +181,20 @@
       "mainDirectoryCategoryC": "类型2",
       "shoppingSiteSorting": 39,
       "status": "2"
+    },
+    {
+      "id": "9e57",
+      "mainDirectoryCategoryE": "类型4",
+      "mainDirectoryCategoryC": "category4",
+      "shoppingSiteSorting": 6,
+      "status": "1"
+    },
+    {
+      "id": "8d6a",
+      "mainDirectoryCategoryE": "种类3",
+      "mainDirectoryCategoryC": "category3",
+      "shoppingSiteSorting": 5,
+      "status": "1"
     }
   ]
 }
